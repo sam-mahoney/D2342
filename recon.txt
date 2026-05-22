@@ -1,0 +1,17 @@
+===
+firmware id     -> Nebula/Nebula_Cosmos_4K_SE/lavasa:11/RTM9.241015.195/13260396:user/release-keys
+android version -> 11
+api level       -> 30
+SoC family      -> m7632
+===
+verifiedbootstate -> green
+veritymode        -> enforcing
+AVB state         -> locked
+SELinux           -> Enforcing
+====
+
+kernel: Linux localhost 4.19.116++ #1 SMP PREEMPT Fri Mar 21 19:18:39 CST 2025 armv7l
+
+Linux version 4.19.116++ (dtvrfadm@mtkscf4196) (Android (6443078 based on r383902) clang version 11.0.1 (https://android.googlesource.com/toolchain/llvm-project b397f81060ce6d701042b782172ed13bee898b79), LLD 11.0.1 (/buildbot/tmp/tmp6_m7QH b397f81060ce6d701042b782172ed13bee898b79)) #1 SMP PREEMPT Fri Mar 21 19:18:39 CST 2025
+
+

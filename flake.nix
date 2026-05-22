@@ -1,5 +1,5 @@
 {
-  description = "Dev shell with ADB (android-tools)";
+  description = "Dev shell with ADB and Ghidra";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
@@ -15,7 +15,7 @@
     {
       devShells = forAllSystems ({ pkgs }: {
         default = pkgs.mkShell {
-          packages = [ pkgs.android-tools ];
+          packages = [ pkgs.android-tools pkgs.ghidra ];
         };
       });
     };
